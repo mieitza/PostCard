@@ -87,7 +87,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="84" width="293" height="75"/>
+                                    <rect key="frame" x="16" y="113" width="293" height="46"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vbi-oa-opg">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="84" width="293" height="21"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGW-vb-RJq">
@@ -112,6 +121,7 @@
                                 <exclude reference="GUv-Ml-GCJ"/>
                                 <exclude reference="fiC-GK-i8k"/>
                                 <exclude reference="SN7-xV-Wgv"/>
+                                <exclude reference="vbi-oa-opg"/>
                                 <exclude reference="lGW-vb-RJq"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="GUv-Ml-GCJ"/>
                                 <include reference="fiC-GK-i8k"/>
                                 <include reference="SN7-xV-Wgv"/>
+                                <include reference="vbi-oa-opg"/>
                                 <include reference="lGW-vb-RJq"/>
                             </mask>
                         </variation>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="GUv-Ml-GCJ" id="H3p-1W-wb8"/>
                         <outlet property="mailButton" destination="lGW-vb-RJq" id="Ie9-b4-9RR"/>
                         <outlet property="messageLabel" destination="SN7-xV-Wgv" id="RVG-Fr-lTY"/>
+                        <outlet property="nameLabel" destination="vbi-oa-opg" id="d69-oJ-Lzy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
